@@ -1,24 +1,32 @@
 body {
 
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'helvetica', sans-serif;
+    color: white;
     margin: 0px;
     font-size: 1.5vw;
+    background-image: url('https://img.freepik.com/premium-photo/dark-gym-with-red-lights-black-background_876956-1225.jpg');
+            background-repeat: round;
+            background-size: cover;
+            background-attachment: fixed;
+    text-decoration: none;            
 }
 
 #logo { margin: 0px;
     padding: 8px;
-    font-family: "Fredoka One", sans-serif;
+    font-family: "Luminari", fantasy;
     
     width: 16%;
     }
 
 body > header {
-    background-color: orange;
-    color: floralwhite;
+    background-color: black;
+    color: red;
+    font-family: "luminari", fantasy;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 12vh;
+    border: 5px solid red;
 }
 body > header > nav > ul {
     list-style: none;
@@ -26,14 +34,18 @@ body > header > nav > ul {
 
 }
 .navbutton {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
     text-decoration: none;
     padding: 12px;
-    border: 1px solid white;
+    border: 1px solid red;
 }
 body > footer {
-    background-color: orange;
+    background-color: black;
+    color: red;
+    font-family: "luminari", fantasy;
     display: flex;
+    padding: 20px;
+    border: 5px solid red;
 }
 ul { margin: 0px;}
 cite > a {
@@ -42,7 +54,7 @@ cite > a {
     height: 200px;
 }
 body > main article {
-    width: 70%;
+    width: 95%;
     margin: auto;
 }
 form {
@@ -52,13 +64,16 @@ h2 {
     text-align: center;
 }
 img {
-    border-radius: 50%;
+    border-radius: 40%;
+    display: block; margin-left: auto; margin-right: auto; width: 50%;
 }
 
-#nav-ul { display:flex}
+#nav-ul { display:flex;
+    text-decoration: none;}
 #nav-ul > li {
     padding: 8px;
     margin: 16px;
+    text-decoration: none;
 }
 #footer-ul { 
     display: flex;
@@ -75,8 +90,18 @@ img {
 #main-content {
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
 }
 #main-content > div {
     width: 80%;
 }
-
+main-content > div > aside > section > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+#li-1 {
+    text-decoration: none;
+}
+#li-2 {
+    text-decoration: none;
+}
