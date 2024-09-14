@@ -23,6 +23,7 @@ body > header {
     color: red;
     font-family: "luminari", fantasy;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     text-align: auto;
     justify-content: space-around;
