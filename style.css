@@ -28,6 +28,7 @@ body > header {
     justify-content: space-around;
     height: ;
     border: 5px solid red;
+    text-size-adjust: auto;
 }
 body > header > nav > ul {
     list-style: none;
