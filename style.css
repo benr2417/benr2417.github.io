@@ -23,12 +23,11 @@ body > header {
     color: red;
     font-family: "luminari", fantasy;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    text-align: auto;
     justify-content: space-around;
-    height: ;
+    height: 12vh;
     border: 5px solid red;
-    text-size-adjust: auto;
 }
 body > header > nav > ul {
     list-style: none;
@@ -41,14 +40,20 @@ body > header > nav > ul {
     padding: 12px;
     border: 1px solid red;
 }
+a.button {
+    text-decoration: none;
+    color: white
+}
 body > footer {
     background-color: black;
     color: red;
     font-family: "luminari", fantasy;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     padding: 20px;
     border: 5px solid red;
-}
+    }
 ul { margin: 0px;}
 cite > a {
     display: inline-block;
